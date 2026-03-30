@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: process.env.VITE_BASE_PATH || '/InvoiceSystem',
   resolve: {
     alias: {
       // Alias @ to the src directory
