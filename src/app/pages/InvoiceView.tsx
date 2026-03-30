@@ -355,18 +355,15 @@ export function InvoiceView() {
           </div>
           <div>
             {" "}
-            <p className="text-xs font-semibold justify-content">UPI ID</p>
+            <p className="text-xs font-semibold justify-content">Pay Via UPI </p>
             <p className="text-xs">
               {business.upiId || "ronitsoni506-1@oksbi"}
             </p>
-          </div>
-          <div>
-            {" "}
-            <p className="text-xs font-semibold justify-content">UPI Number</p>
             <p className="text-xs">
-              {business.upiId || "8955219443"}
+              {business.upiNumber || "8955219443"}
             </p>
           </div>
+          
 
           <div className="text-right">
             <p className="text-xs">Signature</p>
