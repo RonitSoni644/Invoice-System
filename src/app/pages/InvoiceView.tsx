@@ -356,7 +356,7 @@ export function InvoiceView() {
           <div>
             {" "}
             <img
-              src={(business as any).qrCode || "../IMG-20251220-WA0002.jpg"}
+              src={(business as any).qrCode || "/IMG-20251220-WA0002.jpg"}
               style={{ width: "50%", height: "100%", objectFit: "contain" }}
               alt="QR Code"
             />
